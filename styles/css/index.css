@@ -81,32 +81,55 @@ h2 {
     display: flex;
     max-width: 960px;
     margin: 0 auto;
+    padding: 40px;
   }
 }
 
 .social-link {
   display: inline-block;
-  width: 35px;
-  height: 35px;
-  background-size: 35px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
   background-repeat: no-repeat;
   background-color: white;
   border-radius: 50%;
+  text-align: center;
 }
 
 .github {
   background-image: url(../../assets/icons/icon-github.png);
 }
 
+.linkedln {
+  background-image: url(../../assets/icons/icon-linkedin.png);
+}
+
+.twitter {
+  background-image: url(../../assets/icons/icon-twitter.png);
+}
+
+.youtube {
+  background-image: url(../../assets/icons/icon-youtube.png);
+}
+
+.contact {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  padding: 40px;
+}
+
+.social {
+  text-align: center;
+}
+
 /*buttons */
 .button {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 10px 12px;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  transition: all 0.2s;
+  margin: left 30px;
+  padding-left: 20px;
 }
 
 .button-primary {

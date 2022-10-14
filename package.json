@@ -1,0 +1,22 @@
+{
+  "name": "goncalofonseca0.github.io",
+  "version": "1.0.0",
+  "description": "my first portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoncaloFonseca0/GoncaloFonseca0.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoncaloFonseca0/GoncaloFonseca0.github.io/issues"
+  },
+  "homepage": "https://github.com/GoncaloFonseca0/GoncaloFonseca0.github.io#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

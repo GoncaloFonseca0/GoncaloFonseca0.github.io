@@ -7,7 +7,6 @@
   border-radius: 5px;
   display: inline-block;
   transition: all 0.2s;
-  margin-left: 30px;
 }
 
 .button-primary {
@@ -45,8 +44,12 @@
 
 /*styles reset*/
 * {
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -61,7 +64,7 @@ ul {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
   text-align: center;
   font-weight: 500;
   line-height: 1.4;
@@ -74,85 +77,79 @@ h2 {
   align-items: center;
   height: 100vh;
 }
-
-.header-content {
+.header .header-content {
   text-align: center;
   /* max-width: 856px; */
 }
-
-.header-title span {
+.header .header-title span {
   font-size: 48px;
   font-weight: 500;
   line-height: 1.4;
-  color: #002324;
-}
-.header-title span span {
   color: #6608c5;
 }
 
 .about {
-  position: relative;
-  padding: 40px 0 120px;
-  color: #fff;
   background-color: #6608c5;
-  clip-path: polygon(0 0%, 100% 0%, 100% 88%, 0 100%);
-  margin-bottom: 30px;
+  color: #fff;
+  padding: 0.6rem 1.5rem 3.1rem;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  height: 100%;
+}
+
+.about-title {
+  margin: 2.5rem 0;
 }
 
 @media (min-width: 992px) {
   .about-content {
     display: flex;
-    max-width: 960px;
+    max-width: 1220px;
     margin: 0 auto;
   }
 }
-
-.about-img {
+.about-content .about-img {
   width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-  object-fit: scale-down;
+  max-width: 215px;
+  border-radius: 50%;
 }
-
-.about-description {
-  letter-spacing: 0.07em;
-  padding: 10px;
-  text-align: justify;
+.about-content .about-description {
+  padding-right: 3rem;
+  padding: 20px;
 }
 
 .about-quote {
   text-align: center;
+  margin: 2rem 0 3rem;
 }
 
-@media (min-width: 992px) {
-  .project {
-    display: flex;
-    max-width: 960px;
-    margin: 0 auto;
-  }
+.projects {
+  box-sizing: border-box;
+  padding: 0.6rem 0.3rem 3.1rem;
+  scroll-behavior: smooth;
 }
-
-.projects-article {
-  padding: 20px;
-}
-.projects-article .button-primary {
+.projects .button-primary {
   margin-right: 15px;
 }
 @media (min-width: 992px) {
-  .projects-article {
-    display: flex;
+  .projects {
     max-width: 960px;
     margin: 0 auto;
   }
 }
-
-.project-img {
-  width: 100%;
-  max-width: 495px;
-  border-radius: 5px;
-  padding: 20px;
-  left: auto;
-  object-fit: scale-down;
+.projects .project-title {
+  padding: 1.2rem 0;
+}
+.projects .project-article {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1220px;
+  margin: 3rem auto;
+}
+.projects .project-link {
+  margin-top: 1.5rem;
+}
+.projects .project-img {
+  min-width: 300px;
 }
 
 h3 {
@@ -162,25 +159,45 @@ h3 {
   line-height: 28px;
   padding: 10px;
 }
+@media (min-width: 992px) {
+  h3 {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
 
 .contact {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding: 40px;
   background-color: #6608c5;
   color: #fff;
-  clip-path: polygon(100% 1%, 0% 25%, 0% 100%, 30% 100%, 100% 100%);
-  text-align: justify;
+  padding: 10px 25px 50px;
+  clip-path: polygon(0 40%, 100% 0, 100% 101%, 0 101%);
+  height: 100%;
+}
+.contact .contacts-container {
+  margin: 8rem auto 0;
+  max-width: 1220px;
+}
+.contact .contacts-title {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.contact .contacts-link {
+  margin-top: 2.5rem;
+  text-align: center;
 }
 
 .footer {
-  text-align: center;
+  background-color: #002324;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
 }
-.footer .footer-link {
+.footer .footer-wrapper {
   text-align: center;
+  color: #fff;
+  margin-top: 1rem;
 }
 
 .social-item {

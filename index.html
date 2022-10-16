@@ -31,7 +31,7 @@
     </header>
     <main>
       <section class="about">
-        <h2>About me</h2>
+        <h2 class="about-title">About me</h2>
         <div class="about-content">
           <img
             src="./assets/img/project1.webp"
@@ -60,21 +60,23 @@
           <cite>Brian Kernighan</cite>
         </div>
       </section>
-      <section class="Project">
-        <h2>Projects</h2>
+      <!--project-->
+      <section class="projects">
+        <h2 class="project-title">Projects</h2>
         <article class="project-article">
-          <div>
+          <div class="about-description">
             <h3>Project Title</h3>
-            <div class="about-description">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
-                facilis labore magnam corrupti praesentium unde debitis laborum
-                cum, sapiente vero nisi sunt repellat quae cumque repellendus
-                sed expedita reprehenderit ut!
-              </p>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+              facilis labore magnam corrupti praesentium unde debitis laborum
+              cum, sapiente vero nisi sunt repellat quae cumque repellendus sed
+              expedita reprehenderit ut!
+            </p>
+            <div class="project-link">
+              <a href="" class="button button-primary">Source Code</a>
+              <a href="" class="button button-tertiary">View Project</a>
             </div>
-            <a href="" class="button button-primary">Source Code</a>
-            <a href="" class="button button-tertiary">View Project</a>
           </div>
           <img
             src="./assets/img/project1.webp"
@@ -95,9 +97,12 @@
                 sed expedita reprehenderit ut!
               </p>
             </div>
-            <a href="" class="button button-primary">Source Code</a>
-            <a href="" class="button button-tertiary">View Project</a>
+            <div class="project-link">
+              <a href="" class="button button-primary">Source Code</a>
+              <a href="" class="button button-tertiary">View Project</a>
+            </div>
           </div>
+
           <img
             src="./assets/img/project1.webp"
             alt="trabalhar no computador"
@@ -117,8 +122,10 @@
                 sed expedita reprehenderit ut!
               </p>
             </div>
-            <a href="" class="button button-primary">Source Code</a>
-            <a href="" class="button button-tertiary">View Project</a>
+            <div class="project-link">
+              <a href="" class="button button-primary">Source Code</a>
+              <a href="" class="button button-tertiary">View Project</a>
+            </div>
           </div>
           <img
             src="./assets/img/project1.webp"
@@ -129,33 +136,42 @@
         </article>
       </section>
       <section class="contact">
-        <h2>Contact</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis,
-          et ut. Voluptates quas iure laboriosam voluptas doloremque ad commodi,
-          earum a esse accusamus facilis ipsum repudiandae laudantium ratione!
-          Facilis, voluptatibus.
-        </p>
-        <div>
+        <div class="contacts-container">
+          <h2 class="contacts-title">Contact</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Reiciendis, et ut. Voluptates quas iure laboriosam voluptas
+            doloremque ad commodi, earum a esse accusamus facilis ipsum
+            repudiandae laudantium ratione! Facilis, voluptatibus.
+          </p>
+        </div>
+        <div class="contacts-link">
           <a
             href="mailto:goncalofoneseca123@gmail.com"
-            class="button button-secondary button-medium"
+            class="button button-secondary"
             >Lets Talk</a
           >
         </div>
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer-link">
-        <li class="social-item"><a href="" class="social-link github"></a></li>
-        <li class="social-item">
-          <a href="" class="social-link linkedln"></a>
-        </li>
-        <li class="social-item"><a href="" class="social-link twitter"></a></li>
-        <li class="social-item"><a href="" class="social-link youtube"></a></li>
-      </ul>
-
-      <p>@ 2022 - Portefolio Design by Gonçalo Fonseca</p>
+      <div class="footer-wrapper">
+        <ul class="social-link">
+          <li class="social-item">
+            <a href="" class="social-link github"></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link linkedln"></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link twitter"></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link youtube"></a>
+          </li>
+        </ul>
+        <p>@ 2022 - Portefolio Design by Gonçalo Fonseca</p>
+      </div>
     </footer>
   </body>
 </html>

@@ -77,11 +77,13 @@ h2 {
   align-items: center;
   height: 100vh;
 }
-.header .header-content {
+
+.header-content {
   text-align: center;
   /* max-width: 856px; */
 }
-.header .header-title span {
+
+.header-title span {
   font-size: 48px;
   font-weight: 500;
   line-height: 1.4;
@@ -107,12 +109,14 @@ h2 {
     margin: 0 auto;
   }
 }
-.about-content .about-img {
+
+.about-img {
   width: 100%;
   max-width: 215px;
   border-radius: 50%;
 }
-.about-content .about-description {
+
+.about-description {
   padding-right: 3rem;
   padding: 20px;
 }
